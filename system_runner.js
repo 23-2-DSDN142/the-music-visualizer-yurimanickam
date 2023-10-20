@@ -1,5 +1,5 @@
-const canvasWidth = 540;
-const canvasHeight = 960;
+const canvasWidth = 1080;
+const canvasHeight = 810;
 
 
 let mainCanvas;
@@ -40,6 +40,8 @@ function songLoadedSoFar(soFar) {
   print(songButton.elt.innerHTML);
 }
 
+let cloud;
+
 function preload() {
   table = loadTable('volumes.csv', 'csv');
   words = loadStrings('words.txt');
@@ -49,12 +51,27 @@ let volumes = [];
 let volume_length = 0;
 
 function setup() {
-  main_canvas = createCanvas(canvasWidth, canvasHeight);
+  main_canvas = createCanvas(canvasWidth, canvasHeight, WEBGL);
   main_canvas.parent('canvasContainer');
   song = loadSound('song.mp3', songLoaded, songLoadedError, songLoadedSoFar);  
   
-  frameRate(60);
+
+
+
+  //the setup parts that i changed, along with webgl
+  perspective(PI / 3.0, width / height, 0.1, 100000); 
+  //increase the distance that can be veiwed
+  createSpheres(gridWidth, gridHeight,0,gridW2,gridH2);
+  //constuct spehre grid
+  smooth();
+  startTime = millis(); // Record the start time
+  frameRate(30);
+  //lower fr
   angleMode(DEGREES);
+
+
+
+
 
   // create text inputs
   textInput = createInput('words...');
