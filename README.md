@@ -9,5 +9,5 @@ Title = The Grid
 Artist = Daft Punk  
 
 
-[![YouTube Video](https://img.youtube.com/vi/4-J4duzP8Ng/0.jpg)](https://www.youtube.com/watch?v=4-J4duzP8Ng)
+[![YouTube Video]([https://img.youtube.com/vi/4-J4duzP8Ng/0.jpg](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiokGACAFpiX6jhKK5qlqp-O2z-hPmibzN4ebT5fVP_HH4oa5FtCn2FuiCgGUpvwcjK4&usqp=CAU)https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiokGACAFpiX6jhKK5qlqp-O2z-hPmibzN4ebT5fVP_HH4oa5FtCn2FuiCgGUpvwcjK4&usqp=CAU)](https://www.youtube.com/watch?v=4-J4duzP8Ng)
 
