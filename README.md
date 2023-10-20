@@ -5,8 +5,8 @@
 A P5JS framework for running a simple music visualizer, intended as a creative coding I assignment.
 
 Song details: 
-Title = Just Dropped In (To See What Condition My Condition Was In)
-Artist = Kenny Rogers
+Title = The Grid
+Artist = Daft Punk
 
 
 [![YouTube Video](https://img.youtube.com/vi/4-J4duzP8Ng/0.jpg)](https://www.youtube.com/watch?v=4-J4duzP8Ng)
