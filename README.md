@@ -4,9 +4,12 @@
 
 A P5JS framework for running a simple music visualizer, intended as a creative coding I assignment.
 
-Song details: 
-Title = The Grid
-Artist = Daft Punk
+Song details:  
+
+Title = The Grid  
+
+Artist = Daft Punk  
+
 
 [![YouTube Video](https://img.youtube.com/vi/4-J4duzP8Ng/0.jpg)](https://www.youtube.com/watch?v=4-J4duzP8Ng)
 
